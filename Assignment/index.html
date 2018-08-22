@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Get-A-Way!</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+
+  </head>
+  <body>
+   
+<!--NAVIGATION-->
+
+<div id="myNavbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+            <a href="#" class="navbar-brand">Flight Search</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#header">Flights</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#offers">Offers</a></li>
+                <li><a href="login.html">My Account</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#client">Clients</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+   
+<!--- End Navigation ---->
+  
+<!--- Header ---->
+ 
+ <div id="header" class="header">
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-6 col-md-6 wow bounceInLeft">
+                 <h1>Get-A-Way!</h1>
+                 <p>We are India’s leading online travel company was founded in the year 2015. Created to empower the Indian traveller with instant booking and comprehensive choices. It aimed to offer a range of best-value products and services along with cutting-edge technology and dedicated round-the-clock customer support.</p>
+             </div>
+             <div class="col-lg-6 col-md-6 wow bounceInRight">
+             
+             </div>
+         </div>
+     </div>
+ </div>
+  
+<!---- End Header ---->
+<br>
+	<br>
+	
+		<div class="fh5co-hero">
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover" data-stellar-background-ratio="0.5" >
+				<div class="desc">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-5 col-md-5">
+								<div class="tabulation animate-box">
+
+								  <!-- Nav tabs -->
+								   <ul class="nav nav-tabs" role="tablist">
+								      <li role="presentation" class="active">
+								      	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">Flights</a>
+								      </li>
+								      <li role="presentation">
+								    	   <a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">Hotels</a>
+								      </li>
+								      <li role="presentation">
+								    	   <a href="#packages" aria-controls="packages" role="tab" data-toggle="tab">Packages</a>
+								      </li>
+								   </ul>
+
+								   <!-- Tab panes -->
+									<div class="tab-content">
+									 <div role="tabpanel" class="tab-pane active" id="flights">
+										<div class="row">
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">From:</label>
+													<input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">To:</label>
+													<input type="text" class="form-control" id="to-place" placeholder="Tokyo, Japan"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-start">Check In:</label>
+													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-end">Check Out:</label>
+													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">Class:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>Economy</option>
+														<option value="economy">Economy</option>
+														<option value="first">First</option>
+														<option value="business">Business</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Adult:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Children:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xs-12">
+												<input type="submit" class="btn btn-primary btn-block" value="Search Flight">
+											</div>
+										</div>
+									 </div>
+
+									 <div role="tabpanel" class="tab-pane" id="hotels">
+									 	<div class="row">
+											<div class="col-xxs-12 col-xs-12 mt">
+												<div class="input-field">
+													<label for="from">City:</label>
+													<input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-start">Return:</label>
+													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-end">Check Out:</label>
+													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">Rooms:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="economy">1</option>
+														<option value="first">2</option>
+														<option value="business">3</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Adult:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Children:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xs-12">
+												<input type="submit" class="btn btn-primary btn-block" value="Search Hotel">
+											</div>
+										</div>
+									 </div>
+
+									 <div role="tabpanel" class="tab-pane" id="packages">
+									 	<div class="row">
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">City:</label>
+													<input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">Destination:</label>
+													<input type="text" class="form-control" id="to-place" placeholder="Tokyo, Japan"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-start">Departs:</label>
+													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-end">Return:</label>
+													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">Rooms:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="economy">1</option>
+														<option value="first">2</option>
+														<option value="business">3</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Adult:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Children:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xs-12">
+												<input type="submit" class="btn btn-primary btn-block" value="Search Packages">
+											</div>
+										</div>
+									 </div>
+									</div>
+
+								</div>
+							</div>
+							<div class="desc2 animate-box">
+								<div class="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
+									
+									<h3>“Travel makes one modest. You see what a tiny place you occupy in the world.” -Gustav Flaubert
+</h3>
+									<!-- <p><a class="btn btn-primary btn-lg" href="#">Get Started</a></p> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+				
+
+ <!--- Services ---->
+ 
+ <div id="services" class="services">
+     <div class="container">
+         <h2 class="wow fadeInUp">Services</h2>
+         <p class="wow fadeInUp" data-wow-delay="0.4">We believe in quality innovation and customer satisfaction.</p>
+         <div class="row">
+             <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="1.8s">
+                 <i class="fa fa-desktop" aria-hidden="true"></i>
+                 <h4>Why Get-A-Way?</h4>
+                 <p>We compare flight tickets of millions of routes on hundreds of airlines & travel agents to find you the cheapest flight tickets with a click of a button. Once you find your cheap flights & click to select, we link you directly to the airline or travel agent to complete flight booking. No hidden charges, no added fees.</p>
+             </div>
+             <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="1.4s">
+                 <i class="fa fa-mobile" aria-hidden="true"></i>
+                 <h4>App Support</h4>
+                 <p>Download our free app now (on iOS and Android) and join over 70 million happy travellers. Compare all the possible options for cheap flight tickets, best hotels & easy car hire on the go! Our unique proprietary technology connects people directly to everything the travel industry has to offer.</p>
+             </div>
+             <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.8s">
+                 <i class="fa fa-database" aria-hidden="true"></i>
+                  <h4>Awards</h4>
+                 <p>Get-A-Way has been featured by: The Hindu Business Line, The Times of India, The Economic Times, Indian Express, Business Standard and more! Get-A-Way is acclaimed for finding the lowest flight tickets for domestic and international travels and making travel search easy.</p>
+             </div>
+             <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.4s">
+                 <i class="fa fa-university" aria-hidden="true"></i>
+                 <h4>Destinations</h4>
+                 <p>India<br> USA<br>UAE<br> Australia<br> Europe<br>Japan<br>South Africa.</p>
+             </div>
+         </div>
+     </div>
+ </div>
+  
+<!---- End Services ---->
+ 
+<!----- Pricing ------>
+
+<div id="offers" class="pricing">
+    <div class="container">
+        <div class="row">
+            <h2 class="wow fadeInUp">Offers</h2>
+            <p class="wow fadeInUp" data-wow-delay="0.4">To avail our Membership we got four Offers for you,Choose Wisely:</p>
+            <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="1s">
+                <div class="packages">
+                    <h4>Bronze</h4>
+                    <h1>999.99</h1>
+                    <b>Monthly</b>
+                    <p>Purchase this pack to enjoy these services</p>
+                    <hr>
+                    <li>1 Discount per Month</li>
+                    <li>100% Free Cancellations</li>
+                    <li>Online Support</li>
+                    <li>Client Support</li>
+                    <button class="btn btn-success">Get Started</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="1.4s">
+                <div class="packages">
+                    <h4>Silver</h4>
+                    <h1>1999.99</h1>
+                    <b>Monthly</b>
+                    <p>Purchase this pack to enjoy these services</p>
+                    <hr>
+                    <li>3 Discounts per Month</li>
+                    <li>100% Free Cancellations</li>
+                    <li>Online Support</li>
+                    <li>Client Support</li>
+                    <button class="btn btn-success">Get Started</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="1.8s">
+                <div class="packages">
+                    <h4>Gold</h4>
+                    <h1>2999.99</h1>
+                    <b>Monthly</b>
+                    <p>Purchase this pack to enjoy these services</p>
+                    <hr>
+                    <li>5 Discounts per Month</li>
+                    <li>100% Free Cancellations</li>
+                    <li>Online Support</li>
+                    <li>Client Support</li>
+                    <button class="btn btn-success">Get Started</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="2.2s">
+                <div class="packages">
+                    <h4>Premium</h4>
+                    <h1>3999.99</h1>
+                    <b>Monthly</b>
+                    <p>Purchase this pack to enjoy these services</p>
+                    <hr>
+                    <li>7 Discounts per Month</li>
+                    <li>100% Free Cancellations</li>
+                    <li>Online Support</li>
+                    <li>Client Support</li>
+                    <button class="btn btn-success">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+ <!--- End Pricing ---->
+ 
+ <!--- Team ----->
+ 
+ 
+<div id="team" class="team">
+    <div class="container">
+        <div class="row">
+            <h2 class="wow fadeInUp">Meet our team</h2>
+            <p class="wow fadeInUp" data-wow-delay="0.4">The Past , Present and Future of our Company</p>
+            <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="2s">
+                <img src="images/team/team-1.jpg" class="img-circle" alt="">
+                <h4>Kritika Bhatt</h4>
+                <b>CEO and Founder</b>
+                <p>Business Enthusiast</p>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-lg-3 col-md-3  wow fadeInLeft"  data-wow-delay="1.6s">
+                <img src="images/team/team-2.jpg" class="img-circle" alt="">
+                <h4>Kritika Bhatt</h4>
+                <b>Co-Founder</b>
+                <p>HR</p>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-lg-3 col-md-3  wow fadeInLeft"  data-wow-delay="1.2s">
+                <img src="images/team/team-3.jpg" class="img-circle" alt="">
+                <h4>Kritika Bhatt</h4>
+                <b>Co-Founder</b>
+                <p>Dev.</p>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-lg-3 col-md-3  wow fadeInLeft" 0.8>
+                <img src="images/team/team-4.jpg" class="img-circle" alt="">
+                <h4>Kritika Bhatt</h4>
+                <b>Co-Founder</b>
+                <p>General Manager</p>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<!--- End Team ---->
+
+
+<!--- Clients ---->
+
+<div id="client" class="clients">
+    <div class="container">
+        <div class="row">
+            <h2 class="wow fadeInUp">Trusted by</h2>
+            <p class="wow fadeInUp" data-wow-delay="0.4">
+            <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="2s">
+                <li><img src="images/clients/client1.png" alt=""></li>
+            </div>
+            <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="1.6s">
+                <li><img src="images/clients/client2.png" alt=""></li>
+            </div>
+            <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="1.2s">
+                <li><img src="images/clients/client3.png" alt=""></li>
+            </div>
+            <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.8s">
+                <li><img src="images/clients/client4.png" alt=""></li>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<!---- End Clients ----->
+
+<!--- Contact ------>
+
+<div id="contact" class="contact">
+    <div class="container">
+        <div class="row">
+            <h2 class="wow fadeInUp">Contact</h2>
+            <p class="wow fadeInUp" data-wow-delay="0.4">For any kind of  information feel free to ask</p>
+            <div class="col-lg-6 col-md-6">
+                <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="0.8s">
+                    <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
+                    <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Full Name">
+                </div>
+                <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="1.2s">
+                    <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Email Address">
+                </div>
+                <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="1.6s">
+                    <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Phone Number">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="input-group wow fadeInUp" data-wow-delay="2s">
+                    <textarea name="" id="" cols="80" rows="6" class="form-control"></textarea>
+                </div>
+                <button class="btn btn-lg wow fadeInUp" data-wow-delay="2.4s">Submit Your Message</button>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+ <!---- End Contact ----->
+ 
+ 
+ <!---- Footer ---->
+ 
+ <div id="footer" class="footer">
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-4 col-md-4">
+                 <h4 class="wow fadeInUp">Contact Us</h4>
+                 <p><i class="fa fa-home" aria-hidden="true"></i> Abode Valley,potheri,Chennai 603203</p>
+                 <p><i class="fa fa-envelope" aria-hidden="true"></i>  enquiry@getaway.com</p>
+                 <p><i class="fa fa-phone" aria-hidden="true"></i> +91 - 12 - 80742345</p>
+                 <p><i class="fa fa-globe" aria-hidden="true"></i> www.getaway.com</p>
+             </div>
+             <div class="col-lg-4 col-md-4">
+                 <h4>About</h4>
+                 <p><i class="fa fa-square-o" aria-hidden="true"></i> About Us</p>
+                 <p><i class="fa fa-square-o" aria-hidden="true"></i> Privacy</p>
+                 <p><i class="fa fa-square-o" aria-hidden="true"></i> Term & Condition</p>
+             </div>
+             <div class="col-lg-4 col-md-4">
+                 <h4>Stay in touch</h4>
+                 <i class="social fa fa-facebook" aria-hidden="true"></i>
+                 <i class="social fa fa-twitter" aria-hidden="true"></i>
+                <i class="social fa fa-linkedin" aria-hidden="true"></i>
+                <i class="social fa fa-pinterest" aria-hidden="true"></i>
+                <i class="social fa fa-youtube" aria-hidden="true"></i>
+                <i class="social fa fa-github" aria-hidden="true"></i><br>
+                <input type="email" placeholder="Subscribe For Updates"><button class="btn btn-success">Subscribe</button>
+             </div>
+         </div>
+     </div>
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+   
+   
+   
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
